@@ -53,16 +53,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#problem">Problem Statement</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#design">Design Process</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#video">Demo</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Conceptual Design</a>
                     </li>
                 </ul>
             </div>
@@ -82,11 +82,11 @@
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="problem">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Why glowcloser?</h2>
+                    <h2 class="section-heading">Problem Statement</h2>
                     <hr class="light">
                     <p class="text-faded">Real-time communication in long distance relationships can be difficult due to the need to coordinate a time and a particular medium. Simple or basic interactions are not always possible. Furthermore, video conferencing mediums like Hangouts or Skype are not always intuitive and easy to use for children. GlowCloser presents an Internet of Things approach to this problem using paired necklaces. By interacting with the necklaces, users can send a series of light movements to the paired bracelet. The device allows for simple, real-time communication for any two users around the world. GlowCloser can be used by romantic partners, parents, children, friends, or any two people are separated by time and space.</p>
                     <!-- <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
@@ -95,7 +95,7 @@
         </div>
     </section>
 
-    <section id="services">
+    <section id="design">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -232,26 +232,33 @@
             </div> 
         </div>
     </section> -->
-
-    <aside class="bg-dark">    
+<section class="no-padding" id="video" style="background-color:black">
+    <aside id="video"class="bg-dark">    
         <div class="container text-center">
             <div class="call-to-action">
-    <h2 class="section-heading">Video Demo</h2>
+    <h2 class="section-heading">Video Demo of Functional Prototype</h2>
                 <div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/gMZrd1bv1AQ" frameborder="0" allowfullscreen></iframe></div>
                 
             </div>
         </div>
       </aside>
+      </section>
 
     <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading">Conceptual Design</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>The system functions as a pair (or set) of simple necklaces. When User A interacts with his/her necklace, User B’s corresponding necklace will glow and light up based on the specific command/action User A used to stimulate the message.<br>
+                    Currently, there are three different customizable “messages”. Tangible interactions (necklace --> app):<br>
+                    Rotating necklace --> Rotating lights<br>
+                    Shaking necklace --> Rainbow lights<br>
+                    Rotating lights <-- Rotating knob<br>
+
+In the next iterations of glowcloser, the different “messages” can be represented by different colors and generated warmth from the necklace, using touch sensors. For example, User A can say “goodnight” to User B by holding down the sensor on his/her wristband, resulting in User B’s wristband to glow blue until User A releases the touch. <br>The tangible elements of this design include the physical necklace (the Internet Button), an orientation sensor, an acceleration sensor and the LED lights in the button. A tangible approach is the most beneficial for addressing this long-distance communication problem since it introduces a form of palpable remote communication.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+                <!-- <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
                     <p>123-456-6789</p>
                 </div>
@@ -259,7 +266,7 @@
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 

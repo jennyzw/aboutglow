@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#contact {
+
+    margin-bottom: -75px;
+}
+
+
 html,
 body {
     width: 100%;
